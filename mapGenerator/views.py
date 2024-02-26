@@ -2,9 +2,13 @@ from django.shortcuts import render
 import psycopg2
 import json 
 import leafmap.kepler as leafmap
+import os
+
 
 # Create your views here.
 
+DBNAME = os.environ.get('DBNAME')
+DBPASSWORD = os.environ.get('DBPASSWORD')
 
 def index(request):
        
@@ -14,7 +18,7 @@ def index(request):
             return psycopg2.connect(
                 dbname='keplerkenya_database',
                 user= 'keplerkenya',
-                password='john0735880407',
+                password=DBPASSWORD,
                 host='postgresql-keplerkenya.alwaysdata.net',
                 port='5432'
             )
