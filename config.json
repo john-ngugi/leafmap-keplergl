@@ -1,0 +1,61 @@
+{
+  "interactionConfig": {
+    "tooltip": {
+      "fieldsToShow": {
+        "my_data": [
+          {
+            "name": "col_1",
+            "format": null
+          },
+          {
+            "name": "col_2",
+            "format": null
+          }
+        ]
+      },
+      "compareMode": false,
+      "compareType": "absolute",
+      "enabled": true
+    },
+    "brush": {
+      "size": 0.5,
+      "enabled": false
+    },
+    "geocoder": {
+      "enabled": true
+    },
+    "coordinate": {
+      "enabled": false
+    }
+  },
+  "layerBlending": "normal",
+  "splitMaps": [],
+  "animationConfig": {
+    "currentTime": null,
+    "speed": 1
+  },
+  "mapState": {
+    "bearing": 0,
+    "dragRotate": false,
+    "latitude": -1.285747,
+    "longitude": 36.820496,
+    "pitch": 0,
+    "zoom":8.6,
+    "isSplit": false
+  },
+  "mapStyle": {
+    "styleType": "dark",
+    "topLayerGroups": {},
+    "visibleLayerGroups": {
+      "label": true,
+      "road": true,
+      "border": false,
+      "building": true,
+      "water": true,
+      "land": true,
+      "3d building": false
+    },
+    "threeDBuildingColor": [65,193,198],  
+    "mapStyles": {}
+  }
+}
