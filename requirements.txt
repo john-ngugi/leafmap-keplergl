@@ -103,6 +103,7 @@ pystac==1.9.0
 pystac-client==0.7.5
 python-box==7.1.1
 python-dateutil==2.8.2
+python-dotenv==1.0.1
 python-json-logger==2.0.7
 pytz==2024.1
 pywin32==306
