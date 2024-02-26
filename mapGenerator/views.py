@@ -16,7 +16,7 @@ def index(request):
         m.load_config('./config.json')
         def get_db_connection():
             return psycopg2.connect(
-                dbname='keplerkenya_database',
+                dbname=DBNAME,
                 user= 'keplerkenya',
                 password=DBPASSWORD,
                 host='postgresql-keplerkenya.alwaysdata.net',
